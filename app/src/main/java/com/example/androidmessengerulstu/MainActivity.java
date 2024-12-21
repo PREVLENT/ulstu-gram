@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
         binding.bottomNav.setOnItemSelectedListener(item -> {
             Fragment fragment = fragmentMap.get(item.getItemId());
-
             getSupportFragmentManager().beginTransaction().replace(binding.fragmentContainer.getId(), fragment).commit();
 
             return true;

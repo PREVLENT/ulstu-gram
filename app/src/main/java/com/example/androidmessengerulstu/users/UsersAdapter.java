@@ -43,7 +43,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UserViewHolder> {
         }
 
         holder.itemView.setOnClickListener(view -> {
-            ChatUtil.createChat(user);
+            ChatUtil.createChat(holder.itemView.getContext(), user);
         });
     }
 

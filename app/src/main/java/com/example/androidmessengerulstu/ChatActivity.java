@@ -96,6 +96,7 @@ public class ChatActivity extends AppCompatActivity {
 
                         binding.messagesRv.setLayoutManager(new LinearLayoutManager(getBaseContext()));
                         binding.messagesRv.setAdapter(new MessagesAdapter(messages));
+                        binding.messagesRv.scrollToPosition(messages.size() - 1);
                     }
 
                     @Override
