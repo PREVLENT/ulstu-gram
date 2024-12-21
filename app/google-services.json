@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "801095836081",
+    "firebase_url": "https://androidmessengerulstu-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "androidmessengerulstu",
+    "storage_bucket": "androidmessengerulstu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801095836081:android:d5b29d4ffa038a87dc1d90",
+        "android_client_info": {
+          "package_name": "com.example.androidmessengerulstu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXF9OJAj7HFDKRfBiqCO7q24rpmPpD6YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
